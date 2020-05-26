@@ -8,33 +8,62 @@
 
 ## Install
 
-Not needed. It's Deno :)
+Not needed. It's [Deno](https://deno.land/) :)
 
 ## Usage
+
+### Help
+
+```console
+deno run https://raw.githubusercontent.com/bartholomej/geosearch-deno/master/mod.ts
+```
+
+Parameters:
+
+```bash
+--help
+```
 
 ### City, town, village
 
 Let's find all _Springfields_ in the World
 
-```bash
+```console
 deno run --allow-net https://raw.githubusercontent.com/bartholomej/geosearch-deno/master/mod.ts --phrase Springfield --scope muni
+```
 
+Parameters:
+
+```bash
+--phrase Springfield --scope muni
 ```
 
 ### Places start with
 
 Let's find cities or villages start with _Ber_ in _Germany_
 
-```bash
+```console
 deno run --allow-net https://raw.githubusercontent.com/bartholomej/geosearch-deno/master/mod.ts --phrase Ber --scope muni --country de
+```
+
+Parameters:
+
+```console
+ --phrase Ber --scope muni --country de
 ```
 
 ### Public transport
 
 Let's find position of public transport station in the Czech Republic
 
-```bash
+```console
 deno run --allow-net https://raw.githubusercontent.com/bartholomej/geosearch-deno/master/mod.ts --phrase kokořín --scope pubt --country cz
+```
+
+Parameters:
+
+```bash
+ --phrase kokořín --scope pubt --country cz
 ```
 
 ### More!
