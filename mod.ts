@@ -1,6 +1,6 @@
-import { parse } from "./deps.ts";
-import { GeoSearchOptions } from "./interface/geosearch.interface.ts";
-import { resolveOptions } from "./help.ts";
+import { parse } from "./src/deps.ts";
+import { GeoSearchOptions } from "./src/interface/geosearch.interface.ts";
+import { resolveOptions } from "./src/help.ts";
 
 const options = parse(Deno.args) as unknown as GeoSearchOptions;
 
