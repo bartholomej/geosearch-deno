@@ -1,4 +1,4 @@
-![](https://github.com/COEXCZ/geosearch/workflows/Build%20&%20Run%20tests%20&%20Publish/badge.svg)
+[![Check](https://github.com/bartholomej/geosearch-deno/workflows/Check/badge.svg)](https://github.com/bartholomej/geosearch-deno/actions?query=workflow%3ACheck)
 
 # GeoSearch CLI for Deno
 
