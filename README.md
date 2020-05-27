@@ -15,7 +15,7 @@ Not needed. It's [Deno](https://deno.land/) :)
 ### Help
 
 ```console
-deno run https://raw.githubusercontent.com/bartholomej/geosearch-deno/master/mod.ts
+deno run https://deno.land/x/geosearch/mod.ts
 ```
 
 Parameters:
@@ -29,7 +29,7 @@ Parameters:
 Let's find all _Springfields_ in the World
 
 ```console
-deno run --allow-net https://raw.githubusercontent.com/bartholomej/geosearch-deno/master/mod.ts --phrase Springfield --scope muni
+deno run --allow-net https://deno.land/x/geosearch/mod.ts --phrase Springfield --scope muni
 ```
 
 Parameters:
@@ -43,12 +43,12 @@ Parameters:
 Let's find cities or villages start with _Ber_ in _Germany_
 
 ```console
-deno run --allow-net https://raw.githubusercontent.com/bartholomej/geosearch-deno/master/mod.ts --phrase Ber --scope muni --country de
+deno run --allow-net https://deno.land/x/geosearch/mod.ts --phrase Ber --scope muni --country de
 ```
 
 Parameters:
 
-```console
+```bash
  --phrase Ber --scope muni --country de
 ```
 
@@ -57,7 +57,7 @@ Parameters:
 Let's find position of public transport station in the Czech Republic
 
 ```console
-deno run --allow-net https://raw.githubusercontent.com/bartholomej/geosearch-deno/master/mod.ts --phrase kokořín --scope pubt --country cz
+deno run --allow-net https://deno.land/x/geosearch/mod.ts --phrase kokořín --scope pubt --country cz
 ```
 
 Parameters:
